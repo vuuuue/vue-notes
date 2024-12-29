@@ -49,10 +49,10 @@
         <mxCell id="tKZLHIDSZewc5tMyk5Ng-18" value="1.3运行时和编译时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tKZLHIDSZewc5tMyk5Ng-19" value="命令式：更关注做事的过程，比如原先的jQuery。" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="260" y="750" width="120" height="60" as="geometry" />
+        <mxCell id="tKZLHIDSZewc5tMyk5Ng-19" value="涉及框架有三种选择：纯运行时，运行时+编译时，纯编译时。" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tKZLHIDSZewc5tMyk5Ng-20" value="声明式：更关注做事的结果，比如vue内部实现是命令式的，但暴露给用户的是声明式。&lt;div&gt;声明式代码的性能不优于命令式代码的性能。&lt;/div&gt;&lt;div&gt;声明式代码的可维护性更强。&lt;/div&gt;&lt;div&gt;框架设计者要做的就是：在保持可维护性的同时让性能损失最&lt;br&gt;小化。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="tKZLHIDSZewc5tMyk5Ng-20" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="260" y="840" width="120" height="210" as="geometry" />
         </mxCell>
       </root>
