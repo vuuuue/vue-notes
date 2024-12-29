@@ -52,8 +52,14 @@
         <mxCell id="tKZLHIDSZewc5tMyk5Ng-19" value="涉及框架有三种选择：纯运行时，运行时+编译时，纯编译时。" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="260" y="750" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tKZLHIDSZewc5tMyk5Ng-20" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="260" y="840" width="120" height="210" as="geometry" />
+        <mxCell id="tKZLHIDSZewc5tMyk5Ng-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tKZLHIDSZewc5tMyk5Ng-20" target="tKZLHIDSZewc5tMyk5Ng-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKZLHIDSZewc5tMyk5Ng-20" value="纯运行时：类似render函数，用户提供数据不涉及额外步骤。&lt;div&gt;编译加运行时：类型vue中的compiler函数和render函数，它既可以支持运行时，用户可以直接提供数据对象无须编译，又支持编译时，用户可以提供html字符串经过compiler编译为数据对象后交给运行时处理，可以在构建的时候执行compiler将用户提供内容编译好，这样运行时就无需编译了。&lt;/div&gt;&lt;div&gt;纯编译时：如果直接把html字符串编辑成命令式代码，这就是纯编译时框架比如svelte。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="260" y="840" width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tKZLHIDSZewc5tMyk5Ng-21" value="纯运行时没有编译过程，没法分析用户提供内容，加入编译步骤可以分析内容。纯编译时回损失灵活度" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="985" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
